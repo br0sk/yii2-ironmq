@@ -39,7 +39,7 @@ An example of typical usage:
 		//Reserve a message from the queue to process it
 		$message = Yii::$app->ironmq->reserveMessage('queue_name')
 		//When processing is done remove the message from the queue
-		$deltedResult = Yii::$app->ironmq->deleteMessage('vehicle_data', $message->id, $message->reservation_id);
+		$deltedResult = Yii::$app->ironmq->deleteMessage('queue_name', $message->id, $message->reservation_id);
 
 		
     
