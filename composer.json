@@ -1,0 +1,19 @@
+{
+    "name": "br0sk/yii2-ironmq",
+    "description": "Yii2 wrapper for IronMQ V3",
+    "keywords": ["yii2", "mq", "iron.io"],
+    "homepage": "http://br0sk.blogspot.com",
+    "type": "project",
+    "license": "BSD-3-Clause",
+    "support": {
+        "issues": "https://github.com/br0sk/yii2-ironmq/issues",
+        "source": "https://github.com/br0sk/yii2-ironmq"
+    },
+    "require": {
+        "php": ">=5.4.0",
+        "iron-io/iron_mq": "4.*"
+    },
+    "autoload": {
+        "psr-4": {"br0sk\\ironmq\\": ""}
+    }
+}
