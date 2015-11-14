@@ -71,8 +71,6 @@ class IronMQ extends Component
 		if($this->_ironmq !== null) {
 			$this->_ironmq = new \IronMQ\IronMQ($this->configArray);
         }
-		echo("Set token\n");
-		var_dump($this->configArray);
 	}
 
     public function getToken() {
