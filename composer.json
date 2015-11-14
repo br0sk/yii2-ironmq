@@ -11,7 +11,7 @@
     },
     "require": {
         "php": ">=5.4.0",
-        "iron-io/iron_mq": "4..0.1"
+        "iron-io/iron_mq": "4.0.1"
     },
     "autoload": {
         "psr-4": {"br0sk\\ironmq\\": ""}
