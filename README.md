@@ -37,7 +37,7 @@ An example of typical usage:
 		//Push a message to the queue
 		$pushedMessage = Yii::$app->ironmq->postMessage("queue_name", "Test Message");
 		//Reserve a message from the queue to process it
-		$message = Yii::$app->ironmq->reserveMessage('queue_name')
+		$message = Yii::$app->ironmq->reserveMessage('queue_name');
 		//When processing is done remove the message from the queue
 		$deltedResult = Yii::$app->ironmq->deleteMessage('queue_name', $message->id, $message->reservation_id);
 
